@@ -19,7 +19,7 @@ body {
 	margin: 40px auto;
 	display: flex;
 	justify-content: center;
-    background-color: #A3A3A3;
+    background-color: #c9d4df;
 }
 
 .container {
@@ -30,7 +30,7 @@ body {
 }
 
 .card-to-do {
-    background-color: #6b0026;
+    background-color: #f9ca62;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -40,7 +40,7 @@ body {
 }
 
 .card-to-do a {
-    color: #ffffff; /* Color del link */
+    color: #8c671e; /* Color del link */
     text-decoration: none; /* Quita el subrayado */
     font-size: 18px; /* Tamaño de la fuente */
     margin: 10px 0; /* Espaciado superior e inferior */
@@ -48,13 +48,17 @@ body {
 }
 
 .card-to-do a h1 {
-    color: #ffffff; /* Color del link */
+    color: #8c671e; /* Color del link */
+}
+
+.card-to-do a h1:hover {
+    color: #967224; /* Color del link */
 }
 
 
 
 .card-to-do a:hover {
-    color: #fff; /* Color del link al pasar el mouse */
+    color: #967224; /* Color del link al pasar el mouse */
     text-decoration: underline; /* Agrega un subrayado al pasar el mouse */
 }
 
@@ -68,7 +72,7 @@ body {
 
 .tareas-card {
 
-    background-color: #006aff; /* Color de fondo de la tarjeta */
+    background-color: #7dabf6; /* Color de fondo de la tarjeta */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
     padding: 15px; /* Espaciado interno */
@@ -77,6 +81,14 @@ body {
     display: flex; /* Habilita flexbox para el contenedor */
     align-items: center; /* Alinea los items verticalmente al centro */
     margin-bottom: 15px;
+}
+
+.tareas-card h1 {
+    color: #0f0a4c;
+}
+
+.tareas-card p {
+    color: #0f0a4c;
 }
 
 .tareas-card label {
@@ -92,11 +104,11 @@ body {
 
 h1 {
 	text-align: center;
-    color: #fff;
+    color: #8c671e;
 }
 
 p{
-    color: #fff;
+    color: #8c671e;
     text-align: center;
 }
 
@@ -159,11 +171,11 @@ ul li form {
 .container-done {
     display: flex;
     align-items: center;
-	background-color: #006aff;
+	background-color: #7dabf6;
 	border-radius: 20px;
     padding: 5px;
 	border: 5px solid ;
-    border-color: #006aff;
+    border-color: #7dabf6;
 	cursor: pointer;
     height:140px ;
 }
@@ -275,7 +287,7 @@ form {
     cursor: pointer;
     display: flex;
     align-items: center;
-    background: #e62222;
+    background: #e15757;
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
@@ -293,7 +305,7 @@ form {
 
 .btn-eliminar .icon {
     position: absolute;
-    border-left: 1px solid #c41b1b;
+    border-left: 1px solid #e15757;
     transform: translateX(110px);
     height: 40px;
     width: 40px;
@@ -331,7 +343,7 @@ form {
 
 .btn-guardar {
     color: white;
-    background-color: #1D4ED8;
+    background-color: #4584ed;
     --ring-color: #93C5FD;
     font-weight: 500;
     border-radius: 0.5rem;

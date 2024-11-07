@@ -4,11 +4,12 @@ export function Navigation() {
   return (
     <div className="container">
     <div className='card-to-do'>
-      <Link to='/Tareas'> 
-      <h1>Listado de Tareas</h1>
+      <Link to='/Listas'> 
+      <h1>Listas de Tareas</h1>
       </Link>
       <br /><br />
-      <Link to='/Tareas-create'><p>Crear Tarea</p></Link>
+      <Link to='/Listas-create'><p>Crear Lista</p></Link>
+      <Link to='/Tareas-create'><p>Crear Tarea</p></Link>   
     </div>
     </div>
   )

@@ -30,7 +30,7 @@ export  function TareasFormPages() {
             }
        });
        }
-       Navigate("/Tareas")
+       Navigate("/Listas")
     })
 
     useEffect(() =>{
@@ -93,7 +93,7 @@ export  function TareasFormPages() {
                                     color: "#fff"
                                 }
                             });
-                            navigate("/Tareas");
+                            navigate("/Listas");
                         }
                     }}
                 >

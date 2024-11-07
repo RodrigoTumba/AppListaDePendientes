@@ -9,16 +9,18 @@ const ApiLista = axios.create({
     baseURL:"http://localhost:8000/api/v1/ListaTareas/"
 })
 
-// export const ObtenerTareasPorLista = (listaId) => {
-//     const res = ApiLista.get(`/api/v1/ListaTareas/${listaId}/tareas/`);
-//     return res;
-// }
+export const ObtenerTareasPorLista = (listaId) => {
+    const res = ApiLista.get(`/${listaId}/Tareas/`);
+    return res;
+};
 
 export const ObtenerTodasLasTareas = () => {
     //const res = axios.get('http://localhost:8000/api/v1/Tareas/')
     const res = ApiTareas.get('/')
     return res;
 }
+
+
 
 export const ObtenerTarea = (id) => {
     //const res = axios.get('http://localhost:8000/api/v1/Tareas/')

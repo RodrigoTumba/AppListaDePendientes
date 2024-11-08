@@ -100,7 +100,9 @@ body {
     margin-right: 10px; /* Espacio entre el checkbox y el texto */ 
 }
 
-
+textarea{
+    padding-top: 20px;
+}
 
 h1 {
 	text-align: center;
@@ -385,3 +387,5 @@ form {
       transform: rotate(360deg);
     }
   }
+
+  
